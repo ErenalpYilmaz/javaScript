@@ -1,0 +1,14 @@
+'use strict';
+
+
+function cutFruitPieces(fruit) {
+    return fruit * 4;
+}
+
+function fruitProcessor(apples, oranges) { // With parameters.
+    const applePieces = cutFruitPieces(apples);
+    const orangePieces = cutFruitPieces(oranges);
+    const juice = `Juice with ${applePieces} apples and ${orangePieces} oranges.`;
+    return juice;
+}
+console.log(fruitProcessor(16,30));
